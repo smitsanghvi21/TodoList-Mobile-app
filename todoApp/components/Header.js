@@ -1,11 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-import Header from './components/Header';
-const App = () => {
+const Header = () => {
   return (
     <View style={styles.container}>
-      <Header/>
+      <Text>hello world</Text>
     </View>
   );
 };
@@ -13,8 +12,9 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
-export default App;
+export default Header;
